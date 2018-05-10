@@ -6,7 +6,7 @@ if (isset($_POST['nome'])) {
     header("location: index.php");
 }
 ?>
-<hr/>
+
 <form method="POST">
 
     <input type="text" name="nome"/>
